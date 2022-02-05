@@ -10,22 +10,24 @@ By: Eileen Mitchell
 - NODE
 
 # Description
-This website allows users to take, save and check weather data from any city by using the search tool. The user may search for multiple cities and find the 5 day weather forecast for that city with relevant data related to date, temperature, humidity, and wind in that city. The user may also view the current date on a larger screen at the top of the page.
+This website allows users to write, log and save notes in a personalized note taking app. Whether its a grocery list, thoughts throughput thr day or a few reminders, this is a practical and helpful app.
 
 # Known Bugs
-- UV data is not included in the API dataset and would require another API to display
-- Code should be written to eliminate user bugs when incorrect entries are made in the search section
-- More dynamic imagery should be displayed in the 5 day forecast 
-- Temperature should be changed to Farenheit
-- Need to add save data features for local storage
-
+- Needs to add a delete function to clear notes
 
 # Links
-- [index.html](.Assets/index.html)
-- [script.js](.Assets/script.js)
-- [style.css](.Assets/style.css)
+- [db.js](./db/db.js)
+- [db.json](./db/db.json)
+- [styles.css](./public/assets/css/styles.css)
+- [index.js](./public/assets/js/index.js)
+- [index.html](./public/index.html)
+- [notes.html](./public/notes.html)
+- [.gitignore](./gitignore)
+- [package-lock.json](./package-lock.json)
+- [package.json](./package.json)
+- [DIRECTIONS.md](./DIRECTIONS.md)
 
 # Screen Shots
-![Project connection](Snapshot1.jpg)
-![Project connection](Snapshot2.jpg)
+![Project connection](./Assets/11-express-homework-demo-01.png)
+![Project connection](./Assets/11-express-homework-demo-02.png)
 
